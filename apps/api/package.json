@@ -1,0 +1,10 @@
+{
+  "name": "@7feats/api",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "@7feats/schema": "*",
+    "@7feats/config": "*"
+  }
+}

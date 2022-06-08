@@ -1,0 +1,3 @@
+{
+  "extends": "@7feats/config/tsconfig/base.json",
+}

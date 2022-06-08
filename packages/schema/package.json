@@ -1,0 +1,18 @@
+{
+  "name": "@7feats/schema",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "generate": "npx prisma generate --schema=./base.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.14.0"
+  },
+  "devDependencies": {
+    "@7feats/config": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
