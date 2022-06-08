@@ -1,4 +1,4 @@
 {
   "extends": "@7feats/config/tsconfig/base.json",
-  "include": ["."]
+  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.d.ts"]
 }

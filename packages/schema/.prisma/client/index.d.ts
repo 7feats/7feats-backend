@@ -2,6 +2,7 @@
  * Client
  **/
 
+import * as runtime from './runtime/index';
 declare const prisma: unique symbol;
 export type PrismaPromise<A> = Promise<A> & { [prisma]: true };
 type UnwrapPromise<P extends any> = P extends Promise<infer R> ? R : P;
@@ -486,8 +487,8 @@ export namespace Prisma {
   export type Merge<U extends object> = ComputeRaw<_Merge<Strict<U>>>;
 
   /**
-  A [[Boolean]]
-  */
+   A [[Boolean]]
+   */
   export type Boolean = True | False;
 
   // /**
@@ -496,8 +497,8 @@ export namespace Prisma {
   export type True = 1;
 
   /**
-  0
-  */
+   0
+   */
   export type False = 0;
 
   export type Not<B extends Boolean> = {
